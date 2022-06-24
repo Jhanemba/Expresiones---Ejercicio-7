@@ -16,9 +16,9 @@ int main()
 	cout << "Introduzca sobre 100 la nota de la parte teorica(60%): \n"; cin >> nota2;
 	cout << "Introduzca sobre 100 la nota de participacion(30%): \n"; cin >> nota3;
 
-	nota1 = nota1 * 0.30;
-	nota2 = nota2 * 0.60;
-	nota3 = nota3 * 0.10;
+	nota1 *= 0.30; //Esta expresión es igual a: nota1 = nota1 * 0.30
+	nota2 *= 0.60; //"
+	nota3 *= 0.10; //"
 	notaFinal = nota1 + nota2 + nota3;
 
 	cout.precision(7);//Esto solo es un filtro por si el decimal es muy grando y no se vea feo xD
